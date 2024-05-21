@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+.github-profile-container{
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-wrapper{
+  display: block;
+  margin: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  width: 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.user{
+  background-color: white ;
+  width: 30%;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  padding: 2rem 0;
+}
+
+a{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.nameDiv{
+  margin-top: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.nameP{
+  color: #C3C3C3;
+}
+
+hr.solid {
+  border-top: 3px solid #ececec;
+  width: 80%;
+}
+
+.outerDiv{
+  display: inline-block;
+  margin: 0.2rem 1rem;
+  /* background-color: blue; */
+}
+.pUp{
+  margin: 0.5rem;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.pDown{
+  font-family: 'Poppins', sans-serif;
+  color: #C3C3C3;
+}
+
+
+
+.avatar{
+  border-radius: 100%;
+  height: 9rem;
+  border: 4px solid rgba(128, 128, 128, 0.493);
+} 
+
+
+.btnSearch{
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #16A7E4;
+  border: none;
+}
+
+.locDown{
+  background-color: #16A7E4;
   color: white;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  padding: 0.7rem 0;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.loading-spinner{
+  position: absolute;
+  top: 35%;
+  width: 3.5rem; 
+  height: 3.5rem;
+  font-size: 2.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loadingHead{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.loadingDiv{
+  background-color:rgba(0, 0, 0, 0.356);
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
 }
