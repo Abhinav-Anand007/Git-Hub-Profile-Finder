@@ -1,3 +1,10 @@
+# Github Profile Finder
+![Screenshot 2024-04-12 040759](https://github.com/Abhinav-Anand007/Git-Hub-Profile-Finder/assets/100045913/25e10abc-292e-4c8d-ab65-6cd1105288a0)
+
+This project leverages the GitHub API to retrieve user information based on a specified username input by the user. It provides a comprehensive overview of the user's profile, encompassing their followers, those they follow, the number of public repositories, contributions, location, and registration date on GitHub. This functionality aims to facilitate tracking and monitoring of developers' work and contributions, enhancing collaboration and knowledge sharing within the GitHub community.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
